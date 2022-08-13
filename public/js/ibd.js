@@ -52,4 +52,5 @@ request.onupgradeneeded = ({ target }) => {//allows us to add "stores" (collecti
       }
     };
   }
+  // testing heroku
   window.addEventListener("online", checkDatabase);
